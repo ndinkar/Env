@@ -15,7 +15,7 @@
             "name": "Ndinkar"
         }
     ],
-	"minimum-stability": "stable",
+	"minimum-stability": "dev",
         "require": {
         "php": "^8.1"
     }
