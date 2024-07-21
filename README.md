@@ -1,16 +1,18 @@
 # Uses
 
-#Init Class<br/>
+# Init Class<br/>
 $env = new Ndinkar\Env;<br/>
 
-#Init file with path<br/>
+# Init file with path<br/>
 $data = $env->init(".env");<br/>
 
-#Get value of any key or use default with it in case of empty value<br/>
+# Get value of any key or use default with it in case of empty value<br/>
+$data->env('APP_KEY');<br/>
+or<br/>
 $data->env('APP_KEY', 'user input');<br/>
 
 
-#Example file data<br/>
+# Example file data<br/>
 APP_NAME=""<br/>
 APP_VERSION=""<br/>
 APP_ENV=<br/>
