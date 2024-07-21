@@ -1,20 +1,20 @@
 # Uses
 
-#Init Class
-$env = new Env;
+#Init Class<br/>
+$env = new Env;<br/>
 
-#Init file with path
-$data = $env->init(".env");
+#Init file with path<br/>
+$data = $env->init(".env");<br/>
 
-#Get value of any key or use default with it in case of empty value
-$data->env('APP_KEY', 'user input');
+#Get value of any key or use default with it in case of empty value<br/>
+$data->env('APP_KEY', 'user input');<br/>
 
 
-#Example file data
-APP_NAME=""
-APP_VERSION=""
-APP_ENV=
-APP_KEY=base64:0dt0662DOpf4syHE2JxwHwoZsYlCQ3jOvItzpl8WBpQ=
-APP_DEBUG=true
-APP_CIPHER=AES-256-CBC
-DEBUG_MODE=
+#Example file data<br/>
+APP_NAME=""<br/>
+APP_VERSION=""<br/>
+APP_ENV=<br/>
+APP_KEY=base64:0dt0662DOpf4syHE2JxwHwoZsYlCQ3jOvItzpl8WBpQ=<br/>
+APP_DEBUG=true<br/>
+APP_CIPHER=AES-256-CBC<br/>
+DEBUG_MODE=<br/>
