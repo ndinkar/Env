@@ -1,7 +1,7 @@
 # Uses
 
 #Init Class<br/>
-$env = new Env;<br/>
+$env = new Ndinkar\Env;<br/>
 
 #Init file with path<br/>
 $data = $env->init(".env");<br/>
