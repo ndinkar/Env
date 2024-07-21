@@ -13,6 +13,6 @@
             "name": "Ndinkar"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {}
 }
