@@ -15,7 +15,6 @@
             "name": "Ndinkar"
         }
     ],
-    "minimum-stability": "beta",
         "require": {
         "php": "^8.1"
     }
