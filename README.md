@@ -18,4 +18,4 @@ APP_DEBUG=true<br/>
 APP_CIPHER=AES-256-CBC<br/>
 DEBUG_MODE= <br/>
 
-Install using : composer require Ndinkar/Env:dev-master
+Install using : composer require Ndinkar/Env
